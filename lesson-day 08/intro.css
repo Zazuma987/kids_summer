@@ -1,0 +1,46 @@
+.pink{
+    color: crimson;
+}
+p{
+  background-color: lawngreen;  
+}
+ol{
+  list-style-type: upper-roman;
+}
+.bax{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+}
+.blax{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bux{
+width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+.bug{
+width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.wob{
+width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+.blux{
+display: flex;
+    justify-content: center;
+}
+.a{
+    display: flex;
+    justify-content: space-around;
+}
