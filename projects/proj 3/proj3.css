@@ -1,0 +1,107 @@
+.zazuma {
+    display: flex;
+    justify-content: space-around;
+    gap: 400px;
+    position: fixed;
+}
+
+.href {
+    margin-left: 40px;
+    color: #75C310;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact {
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 149px;
+    height: 44.538px;
+    flex-shrink: 10;
+    border-radius: 30px;
+    background: #75C310;
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 40px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hme {
+    color: #75C310;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.abt {
+    position: absolute;
+    top: 92px;
+    left: 127px;
+}
+
+.oplt {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+img {
+    position: absolute;
+    right: 127px;
+    top: 92px;
+}
+
+button {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 220px;
+    padding: 15px 26px 15px 13px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #75C310;
+    text-decoration: none;
+}
