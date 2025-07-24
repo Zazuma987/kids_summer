@@ -1,0 +1,50 @@
+.₮₮₮ {
+    width: 1512px;
+    height: 982px;
+}
+
+.money {
+    width: 510px;
+    height: 755px;
+    flex-shrink: 0;
+    border-radius: 64px;
+    background: #FFF;
+    box-shadow: 0 4px 44px 0 rgba(0, 0, 0, 0.25);
+    margin: 110px;
+}
+
+.picture {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 160px;
+    box-shadow: 0 4px 24px 0 rgba(34, 0, 0, 0.25);
+    position: relative;
+    z-index: 5;
+    left: 175px;
+}
+
+.melon {
+    width: 510px;
+    height: 139px;
+    flex-shrink: 0;
+    border-radius: 64px 64px 0 0;
+    background: #973150;
+    position: relative;
+    top: -170px;
+}
+
+body {
+    background: #EFF3BF;
+}
+
+.watermelon {
+    position: relative;
+    top: -200px;
+    z-index: 5;
+}
+
+.truck {
+    position: relative;
+    top: -360px;
+}
