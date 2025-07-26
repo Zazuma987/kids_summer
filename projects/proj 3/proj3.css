@@ -93,12 +93,9 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    display: flex;
     width: 220px;
     padding: 15px 26px 15px 13px;
-    justify-content: flex-end;
     align-items: center;
-    gap: 10px;
     border-radius: 30px;
     background: #75C310;
     text-decoration: none;
@@ -183,7 +180,7 @@ button {
     line-height: normal;
 }
 
-.xlass {
+.divlass {
     color: #FFF;
     font-family: Montserrat;
     font-size: 20px;
@@ -196,6 +193,7 @@ button {
     border-radius: 30px;
     background: #75C310;
     text-align: center;
+    margin-left: 365px;
 }
 
 .colour {
@@ -232,4 +230,35 @@ button {
     background: #75C310;
     display: block;
     margin: auto;
+}
+
+.CEO1 {
+    width: 382px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+}
+
+.CEO2 {
+    width: 382px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+}
+
+.CEO3 {
+    width: 382px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+}
+.section3{
+    display: flex;
+    gap: 1em;
 }
