@@ -239,6 +239,7 @@ button {
     border-radius: 22px;
     border: 3px solid #75C310;
     background: #FFF;
+    box-shadow: grey 4em 4em 4em;
 }
 
 .CEO2 {
@@ -248,6 +249,7 @@ button {
     border-radius: 22px;
     border: 3px solid #75C310;
     background: #FFF;
+    box-shadow: grey 4em 4em 4em;
 }
 
 .CEO3 {
@@ -257,8 +259,187 @@ button {
     border-radius: 22px;
     border: 3px solid #75C310;
     background: #FFF;
+    box-shadow: grey 4em 4em 4em;
 }
-.section3{
+
+.section3 {
     display: flex;
     gap: 1em;
+    margin-top: 90px;
+    justify-content: center;
+    z-index: 5;
+}
+
+.class {
+    text-align: center;
+}
+
+.one {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.two {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.three {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.class .one {
+    width: 297px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.class .two {
+    width: 297px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.class .three {
+    width: 297px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.glass {
+    text-align: center;
+}
+
+.eleven {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.eight {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ten {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lore {
+    position: relative;
+    left: 4.8em;
+    top: -60px;
+}
+
+footer {
+    bottom: -50em;
+    width: 120%;
+    height: 469px;
+    flex-shrink: 0;
+    background: #75C310;
+    position: relative;
+}
+
+.Avatar-03 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.main {
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.headed {
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.profil {
+    color: #3F6333;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 29px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 9px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fragile {
+    align-content: center;
+}
+
+footer {
+    display: flex;
 }

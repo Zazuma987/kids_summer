@@ -1,0 +1,101 @@
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.alias {
+    width: 6em;
+    height: 2em;
+    background-color: cornflowerblue;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+    width: 6em;
+    height: 2em;
+    background-color:darkgoldenrod;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.all {
+    cursor: cell;
+    width: 6em;
+    height: 2em;
+    background-color:tomato;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.coll-resize {
+    cursor: col-resize;
+    width: 6em;
+    height: 2em;
+    background-color:indianred;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.row-resize {
+    cursor: row-resize;
+    width: 6em;
+    height: 2em;
+    background-color:chartreuse;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.context {
+    cursor: context-menu;
+    width: 6em;
+    height: 2em;
+    background-color:chocolate;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.grab {
+    cursor: grab;
+    width: 6em;
+    height: 2em;
+    background-color:gold;
+    cursor: alias;
+    text-align: center;
+    color: antiquewhite;
+}
+.one{
+    width: 9em;
+    height: 15em;
+    background-color: burlywood;
+    cursor: alias;
+}
+.two{
+    width: 9em;
+    height: 15em;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.three{
+    width: 9em;
+    height: 15em;
+    background-color: blue;
+    cursor: all-scroll;
+}
+.crabmeatmeal{
+    display: flex;
+    gap: 15em;
+}
