@@ -1,0 +1,27 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.static{
+    background-color: cornflowerblue;
+    position: static;
+}
+.relative{
+    background-color: blanchedalmond;
+    position: relative;
+    top: -210px;
+    left: 220px;
+}
+.absolute{
+    background-color: brown;
+    position: absolute;
+    right: 200px;
+}
+.fixed{
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0px;
+    right: 550px;
+
+}

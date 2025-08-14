@@ -1,0 +1,68 @@
+.sun{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUXFaHvhj8W8zXUCxBBJZYnBlQJrsMcgIN7w&s);
+    background-size: cover;
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    box-shadow: 0 0 3em white;
+}
+.container{
+    font-size: 10px;
+    width: 40em;
+    height: 40em;
+    position: relative;
+    background-image: url(https://cdn.theatlantic.com/thumbor/AKvR9L-dLAgNLl7hMs3GSD4NgsE=/0x255:3921x2297/1200x625/media/img/mt/2019/01/lv_Brunier_hb_1/original.jpg);
+}
+.earth::before{
+    content: '';
+    width: 3em;
+    height: 3em;
+    background-image: url(https://i.pinimg.com/736x/da/cc/6a/dacc6ac93ae98403913dc8e612bd82e0.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.8em;
+    right: 2.8em;
+
+}
+.moon::before{
+    content: '';
+    width: 1.2em;
+    height: 1.2em;
+    background-image: url(https://img.freepik.com/premium-photo/scenic-view-moon-against-sky-night_1048944-9310740.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.8em;
+    right: 0.2em;
+}
+.earth , .moon{
+    position: absolute;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    border-width: 0.1em 0.1em 0 0;
+    border-radius: 50%;
+}
+.earth{
+    top: 5em;
+    left: 5em;
+    width: 30em;
+    height: 30em;
+    animation: orbit 36.5s linear infinite;
+    background-size: cover;
+}
+.moon{
+    top: 0;
+    right: 0;
+    width: 8em;
+    height: 8em;
+    animation: orbit 2.7s linear infinite;
+}
+@keyframes orbit {
+    to{
+        transform: rotate(79360deg);
+    }
+}
