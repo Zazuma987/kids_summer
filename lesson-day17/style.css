@@ -1,0 +1,35 @@
+.item{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(30, 126, 252);
+}
+.container{
+    display:grid;
+    grid-template-columns: auto 200px auto 100px ;
+    grid-template-rows: auto auto auto;
+    gap:20px;
+}
+.big{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+
+}
+.big > div {
+    background-color: aquamarine;
+    border: 2px solid;
+    padding:10px;
+    text-align: center;
+}
+.item1{
+    grid-column: 1 / span 2;
+}
+.item2{
+    grid-column: 3;
+    grid-row: 1 / span 2 ;
+}
+.item5{
+    grid-column:1 / span 3;udahd
+}
+

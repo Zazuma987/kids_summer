@@ -1,0 +1,445 @@
+.zazuma {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    padding: 7px 127px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    background: #FFF;
+    box-shadow: 0px 59px 16px 0px rgba(8, 128, 0, 0.00), 0px 38px 15px 0px rgba(8, 128, 0, 0.01), 0px 21px 13px 0px rgba(8, 128, 0, 0.02), 0px 9px 9px 0px rgba(8, 128, 0, 0.04), 0px 2px 5px 0px rgba(8, 128, 0, 0.04), 0px 0px 0px 0px rgba(8, 128, 0, 0.04);
+}
+
+.href {
+    margin-left: 40px;
+    color: #75C310;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.contact {
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 149px;
+    height: 44.538px;
+    flex-shrink: 10;
+    border-radius: 30px;
+    background: #75C310;
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 40px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hme {
+    color: #75C310;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.oplt {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+button {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 220px;
+    padding: 15px 26px 15px 13px;
+    align-items: center;
+    border-radius: 30px;
+    background: #75C310;
+    text-decoration: none;
+}
+
+.optic {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.went {
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.wont {
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.why {
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.img {
+    color: #000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.problem {
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.divlass {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 184px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #75C310;
+    text-align: center;
+    margin-left: 365px;
+}
+
+.colour {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.secondbreakfast {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 184px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #75C310;
+    display: block;
+    margin: auto;
+}
+
+.CEO1 {
+    width: 382px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+    box-shadow: grey 4em 4em 4em;
+}
+
+.CEO2 {
+    width: 382px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+    box-shadow: grey 4em 4em 4em;
+}
+
+.CEO3 {
+    width: 382px;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 3px solid #75C310;
+    background: #FFF;
+    box-shadow: grey 4em 4em 4em;
+}
+
+.section3 {
+    display: flex;
+    gap: 1em;
+    margin-top: 90px;
+    justify-content: center;
+    z-index: 5;
+}
+
+.class {
+    text-align: center;
+}
+
+.one {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.two {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.three {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.class .one {
+    width: 297px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.class .two {
+    width: 297px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.class .three {
+    width: 297px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.glass {
+    text-align: center;
+}
+
+.eleven {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.eight {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ten {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lore {
+    position: relative;
+    left: 4.8em;
+    top: -60px;
+}
+
+footer {
+    bottom: -50em;
+    width: 120%;
+    height: 469px;
+    flex-shrink: 0;
+    background: #75C310;
+    position: relative;
+}
+
+.Avatar-03 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.main {
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.headed {
+    color: #FFF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.5em;
+}
+
+.profil {
+    color: #3F6333;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 29px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 9px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fragile {
+    align-content: center;
+}
+
+footer {
+    display: flex;
+}
