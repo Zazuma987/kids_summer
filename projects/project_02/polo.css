@@ -1,0 +1,152 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    gap: 24px;
+}
+
+main {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+}
+
+.epson {
+    color: #1A75FF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pson {
+    width: 533px;
+    height: 120px;
+    flex-shrink: 0;
+    color: #000;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.son {
+    width: 533px;
+    color: rgba(0, 0, 0, 0.60);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nospe {
+    color: #000;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nosp {
+    color: #1A75FF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(./Merriweather-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+.dopple {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+}
+
+.ab {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: whitesmoke;
+    text-align:center ;
+    align-items: center;
+    align-content: center;
+}
+
+.ac {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.wu {
+    color: rgba(0, 0, 0, 0.32);
+
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
+
+.ADD {
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    width: 533px;
+    padding: 16px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #1A75FF;
+}
+.ac:hover {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.ab:hover {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: black;
+    color: aliceblue;
+    text-align:center ;
+    align-items: center;
+    align-content: center;
+}
